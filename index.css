@@ -1,0 +1,44 @@
+/*Universal Selector*/
+
+* {
+	font-family: Roboto, sans-serif;
+}
+
+h1, p {
+	font-family: Montserrat, sans-serif;
+}
+
+#profile {
+	height: 250px;
+	widows: 250px;
+
+	border-radius: 50%;
+
+}
+
+body {
+	background-color: #FFFFFF;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.81'%3E%3Cpolygon fill='%23f2f2cc' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23e5e599' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23d9d766' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23ccca33' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23BFBD00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	border-width: 30%;
+}
+
+hr {
+	justify-content: center;
+}
+
+#landing {
+	height: 80vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
